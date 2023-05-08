@@ -1,0 +1,14 @@
+.nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Gray/White */
+
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #ffc27a;
+}

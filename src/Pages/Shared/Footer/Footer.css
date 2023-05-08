@@ -1,0 +1,47 @@
+.footer-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  letter-spacing: 0.002em;
+
+  /* Gray/White */
+
+  color: #ffffff;
+}
+.footer-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Gray/50 */
+
+  color: #e7e9eb;
+}
+.subscribe {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  /* Gray/White */
+
+  color: #ffffff;
+}
+.footer input {
+  padding: 16px;
+  width: 312px;
+  height: 57px;
+  /* Gray/White */
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 15px 35px rgba(210, 217, 224, 0.25);
+}
+
+.footer-grid {
+  justify-items: center;
+}
