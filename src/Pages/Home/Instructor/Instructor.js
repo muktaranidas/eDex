@@ -27,15 +27,22 @@ const Instructor = () => {
           </p>
         </div>
 
-        <div className="flex flex-row justify-center items-center">
-          <button className="prev   pr-[16px] ">
+        <div className="flex flex-row justify-center w-[1440px] mx-auto items-center">
+          <button className="prev  text-white  pr-[16px] ">
             <ArrowLeft></ArrowLeft>
           </button>
-          <div className="widthClass">
+          <div className="w-[1320px] ">
             <Swiper
+              style={{
+                "--swiper-pagination-color": "#FFC27A",
+                "--swiper-pagination-bullet-inactive-color": "#999999",
+                "--swiper-pagination-bullet-inactive-opacity": "1",
+                "--swiper-pagination-bullet-size": "16px",
+                "--swiper-pagination-bullet-horizontal-gap": "6px",
+              }}
               // install Swiper modules
               modules={[Navigation, Pagination, A11y]}
-              // spaceBetween={}
+              spaceBetween={24}
               slidesPerView={4}
               navigation={{ prevEl: ".prev", nextEl: ".next" }}
               pagination={{ clickable: true }}
@@ -43,7 +50,7 @@ const Instructor = () => {
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log("slide change")}
             >
-              <div className=" grid grid-cols-1 gap-[24px]  lg:grid-cols-4">
+              <div className=" ">
                 <SwiperSlide>
                   <div className="card-div ">
                     <img src={instructor1} alt="" />
@@ -136,8 +143,8 @@ const Instructor = () => {
               </div>
             </Swiper>
           </div>
-          <button className="next  pl-[16px] ">
-            <ArrowLeft></ArrowLeft>
+          <button className="next  text-white rotate-180 pr-[16px] ">
+            <ArrowRight></ArrowRight>
           </button>
         </div>
       </div>
