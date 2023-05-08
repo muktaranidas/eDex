@@ -10,11 +10,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 // Import Swiper styles
 import "swiper/css";
+import ArrowLeft from "../../Shared/ArrowLeft/ArrowLeft";
+import ArrowRight from "../../Shared/ArrowRight/ArrowRight";
 // import "swiper/css/navigation";
 // import "swiper/css/pagination";
 
-import ArrowLeft from "../../Shared/ArrowLeft/ArrowLeft";
-import ArrowRight from "../../Shared/ArrowRight/ArrowRight";
 // import "swiper/css/scrollbar";
 
 const Instructor = () => {

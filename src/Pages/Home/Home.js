@@ -4,6 +4,7 @@ import Instructor from "./Instructor/Instructor";
 import PopularCategory from "./PopularCategory/PopularCategory";
 import Course from "./Course/Course";
 import StudentFeedback from "./StudentFeedback/StudentFeedback";
+import About from "./About/About";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <PopularCategory></PopularCategory>
       <Instructor></Instructor>
       <StudentFeedback></StudentFeedback>
+      <About></About>
     </div>
   );
 };

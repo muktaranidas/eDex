@@ -1,0 +1,36 @@
+.about-heading {
+  width: 648px;
+  height: 96px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #21212f;
+}
+.about-heading-style {
+  width: 648px;
+  height: 96px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #3461fd;
+}
+.about-h4 {
+  width: 534px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #52565c;
+}
+.about-p {
+  width: 648px;
+  height: 72px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6d737a;
+}
