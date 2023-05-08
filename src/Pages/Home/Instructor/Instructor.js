@@ -1,8 +1,8 @@
 import React from "react";
 import instructor1 from "../../../assets/instructor/1.png";
 import "./Instructor.css";
-import { Navigation, Pagination, A11y } from "swiper";
 
+import { Navigation, Pagination, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 // Import Swiper styles
