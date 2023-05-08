@@ -32,7 +32,7 @@
   background: #ffffff;
   border-radius: 1000px;
 }
-.label:has(input:focus) {
+/* .label:has(input:focus) {
   border-radius: 5px;
   border: 2px solid red;
-}
+} */

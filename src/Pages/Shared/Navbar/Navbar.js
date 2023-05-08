@@ -6,8 +6,8 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <section className="navbar  bg-[#6176F7]   ">
-      <div className="widthClass mx-auto ">
-        <div className="navbar-start mr-[246px]">
+      <div className="widthClass ">
+        <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -60,7 +60,7 @@ const Navbar = () => {
             <img src={navLogo} alt="" />
           </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center  ml-[246px] mr-[270px] hidden lg:flex">
           <ul className="flex flex-row gap-[48px]">
             <li>
               <a href="#" className="nav-link">
@@ -89,7 +89,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className=" navbar-end ml-[273px]">
+        <div className=" navbar-end ">
           <div className="flex items-center ">
             <span className="">
               <svg
