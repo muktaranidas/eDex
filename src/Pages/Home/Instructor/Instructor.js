@@ -37,6 +37,8 @@ const Instructor = () => {
           <div className="w-[1320px] relative">
             <Swiper
               style={{
+                paddingTop: "65px",
+                paddingBottom: "65px",
                 "--swiper-pagination-color": "#FFC27A",
                 "--swiper-pagination-bullet-inactive-color": "#999999",
                 "--swiper-pagination-bullet-inactive-opacity": "1",
@@ -53,7 +55,7 @@ const Instructor = () => {
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log("slide change")}
             >
-              <div className="my-swiper ">
+              <div className="my-pagination ">
                 <SwiperSlide>
                   <div className="card-div ">
                     <img src={instructor1} alt="" />

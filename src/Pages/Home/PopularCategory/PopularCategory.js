@@ -26,7 +26,7 @@ const PopularCategory = () => {
           <h2 className="heading">
             Most <span className="color-heading">Popular Category</span>
           </h2>
-          <p className="paragraph-tag">
+          <p className="paragraph-tag pb-[48px]">
             Various versions have evolved over the years, sometimes by accident,
           </p>
         </div>

@@ -30,6 +30,8 @@ const StudentFeedback = () => {
           <div className="w-[1320px] ">
             <Swiper
               style={{
+                paddingBottom: "65px",
+                paddingTop: "65px",
                 "--swiper-pagination-color": "#FFC27A",
                 "--swiper-pagination-bullet-inactive-color": "#999999",
                 "--swiper-pagination-bullet-inactive-opacity": "1",
