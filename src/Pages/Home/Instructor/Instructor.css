@@ -43,3 +43,7 @@
 #style-btn:hover {
   stroke: white;
 }
+.my-swiper .swiper-pagination {
+  position: absolute;
+  bottom: -10px !important;
+}

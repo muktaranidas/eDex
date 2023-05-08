@@ -20,7 +20,7 @@ import ArrowRight from "../../Shared/ArrowRight/ArrowRight";
 
 const PopularCategory = () => {
   return (
-    <div className="bg-[#E5E5E5] pt-[100px] pb-[100px]">
+    <div className="bg-[#F3F4F5] pt-[100px] pb-[100px]">
       <div className="widthClass">
         <div className="">
           <h2 className="heading">

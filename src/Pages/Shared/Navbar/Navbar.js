@@ -56,7 +56,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="flex">
+          <div className="flex h-[40px] w-[106px]">
             <img src={navLogo} alt="" />
           </div>
         </div>

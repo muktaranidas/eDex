@@ -5,7 +5,7 @@ import instructor3 from "../../../assets/instructor/3.png";
 import instructor4 from "../../../assets/instructor/4.png";
 import "./Instructor.css";
 
-import { Navigation, Pagination, A11y } from "swiper";
+import { Pagination, A11y, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 // Import Swiper styles
@@ -19,7 +19,7 @@ import ArrowRight from "../../Shared/ArrowRight/ArrowRight";
 
 const Instructor = () => {
   return (
-    <div className="bg-[#FFFFFF] pt-[100px] pb-[162px]">
+    <div className="bg-[#E5E5E5] pt-[100px] pb-[162px]">
       <div className="">
         <div className="widthClass">
           <h2 className="heading">
@@ -31,10 +31,10 @@ const Instructor = () => {
         </div>
 
         <div className="flex flex-row justify-center w-[1440px] mx-auto items-center">
-          <button className="prev   text-white  pr-[16px] ">
+          <button className="previous  text-[#FFFFFF]  pr-[16px] ">
             <ArrowLeft></ArrowLeft>
           </button>
-          <div className="w-[1320px] ">
+          <div className="w-[1320px] relative">
             <Swiper
               style={{
                 "--swiper-pagination-color": "#FFC27A",
@@ -47,13 +47,13 @@ const Instructor = () => {
               modules={[Navigation, Pagination, A11y]}
               spaceBetween={24}
               slidesPerView={4}
-              navigation={{ prevEl: ".prev ", nextEl: ".next" }}
+              navigation={{ prevEl: ".previous ", nextEl: ".next" }}
               pagination={{ clickable: true }}
               // scrollbar={{ draggable: true }}
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log("slide change")}
             >
-              <div className=" ">
+              <div className="my-swiper ">
                 <SwiperSlide>
                   <div className="card-div ">
                     <img src={instructor1} alt="" />
@@ -145,7 +145,7 @@ const Instructor = () => {
               </div>
             </Swiper>
           </div>
-          <button className="next   text-white rotate-180 pr-[16px] ">
+          <button className="next   text-[#FFFFFF] rotate-180 pr-[16px] ">
             <ArrowRight></ArrowRight>
           </button>
         </div>
