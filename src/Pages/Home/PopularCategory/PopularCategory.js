@@ -1,8 +1,8 @@
 import React from "react";
-import html from "../../../assets/Course/1.png";
-import design from "../../../assets/Course/2.png";
-import business from "../../../assets/Course/3.png";
-import business2 from "../../../assets/Course/4.png";
+// import html from "../../../assets/Course/1.png";
+// import design from "../../../assets/Course/2.png";
+// import business from "../../../assets/Course/3.png";
+// import business2 from "../../../assets/Course/4.png";
 
 import "./PopularCategory.css";
 
@@ -47,10 +47,10 @@ const PopularCategory = () => {
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log("slide change")}
             >
-              <div className=" grid grid-cols-1 gap-[24px]  lg:grid-cols-4">
+              {/* <div className=" grid grid-cols-1 gap-[24px]  lg:grid-cols-4">
                 <SwiperSlide>
                   <div className="popular-card-div ">
-                    <img src={html} alt="" />
+                    <img src="" alt="" />
                     <div className=" mt-[16px] ">
                       <h2 className="">Various versions have evolved daf</h2>
                       <div className="flex flex-row mt-[20.24px]">
@@ -199,7 +199,7 @@ const PopularCategory = () => {
                   </div>
                 </SwiperSlide>
                 .....
-              </div>
+              </div> */}
             </Swiper>
           </div>
           <button className="next  pl-[16px] ">

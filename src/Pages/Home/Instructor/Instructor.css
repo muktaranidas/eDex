@@ -36,3 +36,10 @@
   color: white;
   background-color: #ffa337;
 }
+
+.prev.swiper-button-active {
+  background-color: red;
+}
+#style-btn:hover {
+  stroke: white;
+}

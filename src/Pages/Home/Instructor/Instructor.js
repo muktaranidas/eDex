@@ -1,5 +1,8 @@
 import React from "react";
 import instructor1 from "../../../assets/instructor/1.png";
+import instructor2 from "../../../assets/instructor/2.png";
+import instructor3 from "../../../assets/instructor/3.png";
+import instructor4 from "../../../assets/instructor/4.png";
 import "./Instructor.css";
 
 import { Navigation, Pagination, A11y } from "swiper";
@@ -28,7 +31,7 @@ const Instructor = () => {
         </div>
 
         <div className="flex flex-row justify-center w-[1440px] mx-auto items-center">
-          <button className="prev  text-white  pr-[16px] ">
+          <button className="prev   text-white  pr-[16px] ">
             <ArrowLeft></ArrowLeft>
           </button>
           <div className="w-[1320px] ">
@@ -44,7 +47,7 @@ const Instructor = () => {
               modules={[Navigation, Pagination, A11y]}
               spaceBetween={24}
               slidesPerView={4}
-              navigation={{ prevEl: ".prev", nextEl: ".next" }}
+              navigation={{ prevEl: ".prev ", nextEl: ".next" }}
               pagination={{ clickable: true }}
               // scrollbar={{ draggable: true }}
               onSwiper={(swiper) => console.log(swiper)}
@@ -64,11 +67,33 @@ const Instructor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="card-div ">
-                    <img src={instructor1} alt="" />
+                    <img src={instructor2} alt="" />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
-                        UI-UX Design Expart
+                        Social Media Expart
+                      </span>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card-div ">
+                    <img src={instructor3} alt="" />
+                    <div className="text-center mt-[16px] ">
+                      <h2 className="instructor-name ">Jacob Jones</h2>
+                      <span className="instructor-position">
+                        Business Idea Expart
+                      </span>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card-div ">
+                    <img src={instructor4} alt="" />
+                    <div className="text-center mt-[16px] ">
+                      <h2 className="instructor-name ">Jacob Jones</h2>
+                      <span className="instructor-position">
+                        Photograpy Expart
                       </span>
                     </div>
                   </div>
@@ -86,64 +111,41 @@ const Instructor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="card-div ">
-                    <img src={instructor1} alt="" />
+                    <img src={instructor2} alt="" />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
-                        UI-UX Design Expart
+                        Social Media Expart
                       </span>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="card-div ">
-                    <img src={instructor1} alt="" />
+                    <img src={instructor3} alt="" />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
-                        UI-UX Design Expart
+                        Business Idea Expart
                       </span>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="card-div ">
-                    <img src={instructor1} alt="" />
+                    <img src={instructor4} alt="" />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
-                        UI-UX Design Expart
+                        Photograpy Expart
                       </span>
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                  <div className="card-div ">
-                    <img src={instructor1} alt="" />
-                    <div className="text-center mt-[16px] ">
-                      <h2 className="instructor-name ">Jacob Jones</h2>
-                      <span className="instructor-position">
-                        UI-UX Design Expart
-                      </span>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="card-div ">
-                    <img src={instructor1} alt="" />
-                    <div className="text-center mt-[16px] ">
-                      <h2 className="instructor-name ">Jacob Jones</h2>
-                      <span className="instructor-position">
-                        UI-UX Design Expart
-                      </span>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                .....
               </div>
             </Swiper>
           </div>
-          <button className="next  text-white rotate-180 pr-[16px] ">
+          <button className="next   text-white rotate-180 pr-[16px] ">
             <ArrowRight></ArrowRight>
           </button>
         </div>
