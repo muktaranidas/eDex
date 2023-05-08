@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../../../assets/banner/banner.png";
 import "./Banner.css";
+import BannerButton from "./BannerButton";
 
 const Banner = () => {
   return (
@@ -14,11 +15,17 @@ const Banner = () => {
           <p className="banner-p mb-[32px]">
             Various versions have evolved over the years, sometimesbyaccident,
           </p>
-          <input
-            type="text"
-            placeholder="What do want to learn?"
-            className="input mb-[318px] py-[24px] pl-[32px] pr-[373px] banner-input"
-          />
+          <label className="flex relative ">
+            <input
+              type="email"
+              placeholder="What do want to learn?"
+              className="input mb-[318px]    py-[24px] pl-[32px] pr-[373px] banner-input"
+            />
+
+            <div className="absolute right-6">
+              <BannerButton></BannerButton>
+            </div>
+          </label>
         </div>
         <div className="flex -mt-16 mb-[248px] ">
           <img src={img} alt="" />
