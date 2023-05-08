@@ -19,7 +19,7 @@ import ArrowRight from "../../Shared/ArrowRight/ArrowRight";
 
 const Course = () => {
   return (
-    <div className="bg-[#E5E5E5] pt-[100px] pb-[147px]">
+    <div className="bg-[#FFFFFF] pt-[284px] pb-[177px]">
       <div className="">
         <div className="widthClass">
           <h2 className="heading">

@@ -1,9 +1,34 @@
 .popular-card-div {
-  padding: 16px;
+  padding: 16px 24px;
   width: 312px;
-  height: 403px;
+  height: 76px;
   /* Gray/White */
   background: #ffffff;
-  border-radius: 24px;
-  /* box-shadow: 0px 3px 12px rgba(75, 75, 75, 0.08); */
+  /* Secondary/500 */
+
+  /* border: 2px solid #ffc27a; */
+  /* box-shadow: 0px 12px 48px rgba(255, 194, 122, 0.26); */
+  border-radius: 22px;
+}
+.popular-card-div:hover {
+  border: 2px solid #ffc27a;
+  box-shadow: 0px 12px 48px rgba(255, 194, 122, 0.26);
+}
+.category-type {
+  width: 160px;
+  height: 28px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+.category-type-special {
+  width: 161px;
+  height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
 }

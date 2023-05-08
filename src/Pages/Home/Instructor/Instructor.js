@@ -19,7 +19,7 @@ import ArrowRight from "../../Shared/ArrowRight/ArrowRight";
 
 const Instructor = () => {
   return (
-    <div className="bg-[#E5E5E5] pt-[100px] pb-[147px]">
+    <div className="bg-[#FFFFFF] pt-[100px] pb-[162px]">
       <div className="">
         <div className="widthClass">
           <h2 className="heading">

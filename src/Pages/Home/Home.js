@@ -7,7 +7,7 @@ import Course from "./Course/Course";
 const Home = () => {
   return (
     <div>
-      <Banner></Banner>
+      {/* <Banner></Banner> */}
       <Course></Course>
       <PopularCategory></PopularCategory>
       <Instructor></Instructor>
