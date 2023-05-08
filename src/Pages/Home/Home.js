@@ -3,6 +3,7 @@ import Banner from "./Banner/Banner";
 import Instructor from "./Instructor/Instructor";
 import PopularCategory from "./PopularCategory/PopularCategory";
 import Course from "./Course/Course";
+import StudentFeedback from "./StudentFeedback/StudentFeedback";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Course></Course>
       <PopularCategory></PopularCategory>
       <Instructor></Instructor>
+      <StudentFeedback></StudentFeedback>
     </div>
   );
 };
