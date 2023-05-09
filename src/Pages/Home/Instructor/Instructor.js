@@ -42,7 +42,7 @@ const Instructor = () => {
                 "--swiper-pagination-color": "#FFC27A",
                 "--swiper-pagination-bullet-inactive-color": "#999999",
                 "--swiper-pagination-bullet-inactive-opacity": "1",
-                "--swiper-pagination-bullet-size": "16px",
+                "--swiper-pagination-bullet-size": "12px",
                 "--swiper-pagination-bullet-horizontal-gap": "6px",
               }}
               // install Swiper modules
@@ -57,8 +57,12 @@ const Instructor = () => {
             >
               <div className="my-pagination ">
                 <SwiperSlide>
-                  <div className="card-div ">
-                    <img src={instructor1} alt="" />
+                  <div className="card-div group">
+                    <img
+                      src={instructor1}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -68,8 +72,12 @@ const Instructor = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="card-div ">
-                    <img src={instructor2} alt="" />
+                  <div className="card-div group">
+                    <img
+                      src={instructor2}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -79,8 +87,12 @@ const Instructor = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="card-div ">
-                    <img src={instructor3} alt="" />
+                  <div className="card-div group">
+                    <img
+                      src={instructor3}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -90,8 +102,12 @@ const Instructor = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="card-div ">
-                    <img src={instructor4} alt="" />
+                  <div className="card-div group">
+                    <img
+                      src={instructor4}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -101,8 +117,12 @@ const Instructor = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="card-div ">
-                    <img src={instructor1} alt="" />
+                  <div className="card-div group">
+                    <img
+                      src={instructor1}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -112,8 +132,12 @@ const Instructor = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="card-div ">
-                    <img src={instructor2} alt="" />
+                  <div className="card-div group">
+                    <img
+                      src={instructor2}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -123,8 +147,12 @@ const Instructor = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="card-div ">
-                    <img src={instructor3} alt="" />
+                  <div className="card-div group">
+                    <img
+                      src={instructor3}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -134,8 +162,12 @@ const Instructor = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="card-div ">
-                    <img src={instructor4} alt="" />
+                  <div className="card-div group">
+                    <img
+                      src={instructor4}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">

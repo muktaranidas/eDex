@@ -1,7 +1,7 @@
 .course-card-div {
   padding: 16px;
   width: 312px;
-  height: 403px;
+  /* height: 403px; */
   background: #ffffff;
   border-radius: 24px;
 }
@@ -32,4 +32,15 @@
   line-height: 32px;
   letter-spacing: 0.002em;
   color: #1b1d1f;
+}
+.svg1 {
+  padding: 16px;
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 194, 122, 0.12) 0%,
+    rgba(255, 163, 55, 0.12) 100%
+  );
+  border-radius: 1000px;
 }

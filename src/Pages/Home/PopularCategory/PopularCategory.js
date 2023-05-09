@@ -32,7 +32,7 @@ const PopularCategory = () => {
         </div>
 
         <div className="container grid grid-cols-1 gap-[24px] mx-auto lg:grid-cols-4">
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF]  transition ease-in-out  delay-150 popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -97,7 +97,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF]  transition ease-in-out  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -198,7 +198,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -264,7 +264,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -330,7 +330,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -417,7 +417,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -469,7 +469,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -521,7 +521,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -580,7 +580,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -639,7 +639,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -691,7 +691,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -792,7 +792,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"

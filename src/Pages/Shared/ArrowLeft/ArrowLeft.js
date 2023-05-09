@@ -3,7 +3,7 @@ import React from "react";
 const ArrowLeft = () => {
   return (
     <svg
-      className="hover:text-[#FFA337] "
+      className="hover:text-[#FFA337]"
       width="44"
       height="44"
       viewBox="0 0 44 44"

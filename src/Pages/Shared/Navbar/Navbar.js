@@ -5,9 +5,9 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <section className="navbar  bg-[#6176F7]   ">
+    <section className="navbar  relative z-[999px] bg-[#6176F7] py-8  ">
       <div className="widthClass ">
-        <div className="navbar-start">
+        <div className="navbar-start flex item-center justify-center">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -56,7 +56,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="flex h-[40px] w-[106px]">
+          <div className="">
             <img src={navLogo} alt="" />
           </div>
         </div>
@@ -122,8 +122,9 @@ const Navbar = () => {
             <a href="#" className="mr-[24px] ml-[8px] nav-link ">
               Login
             </a>
-            <div className="">
+            <div className="flex justify-center items-center w-[167px] h-[48px]">
               <Button btnText={"Sign up for Free"}></Button>
+              {/* <Button></Button> */}
             </div>
           </div>
         </div>

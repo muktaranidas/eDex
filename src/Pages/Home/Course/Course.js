@@ -42,7 +42,7 @@ const Course = () => {
                 "--swiper-pagination-color": "#FFC27A",
                 "--swiper-pagination-bullet-inactive-color": "#999999",
                 "--swiper-pagination-bullet-inactive-opacity": "1",
-                "--swiper-pagination-bullet-size": "16px",
+                "--swiper-pagination-bullet-size": "12px",
                 "--swiper-pagination-bullet-horizontal-gap": "6px",
               }}
               // install Swiper modules
@@ -57,8 +57,12 @@ const Course = () => {
             >
               <div className=" ">
                 <SwiperSlide>
-                  <div className="course-card-div ">
-                    <img src={course1} alt="" />
+                  <div className="course-card-div overflow-hidden group">
+                    <img
+                      src={course1}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -127,13 +131,85 @@ const Course = () => {
                         <p className="review-number">(15)</p>
                       </div>
                       <hr />
-                      <p className="py-[22px] price">$ 500</p>
+                      <div className="flex justify-between pt-[16px]">
+                        <p className=" price">$ 500</p>
+                        <svg
+                          // className="group-hover:text-[#FFA337] "
+                          id="svg1"
+                          width="44"
+                          height="44"
+                          viewBox="0 0 44 44"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            width="44"
+                            height="44"
+                            rx="22"
+                            fill="url(#paint0_linear_70_627)"
+                            fill-opacity="0.12"
+                          />
+                          <path
+                            d="M16 28L28 16"
+                            stroke="url(#paint1_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.25 16H28V25.75"
+                            stroke="url(#paint2_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_70_627"
+                              x1="22"
+                              y1="0"
+                              x2="22"
+                              y2="44"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_70_627"
+                              x1="22"
+                              y1="16"
+                              x2="22"
+                              y2="28"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint2_linear_70_627"
+                              x1="23.125"
+                              y1="16"
+                              x2="23.125"
+                              y2="25.75"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="course-card-div ">
-                    <img src={course2} alt="" />
+                  <div className="course-card-div group">
+                    <img
+                      src={course2}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -202,13 +278,83 @@ const Course = () => {
                         <p className="review-number">(20)</p>
                       </div>
                       <hr />
-                      <p className="py-[22px] price">$ 500</p>
+                      <div className="flex justify-between pt-[16px]">
+                        <p className=" price">$ 500</p>
+                        <svg
+                          width="44"
+                          height="44"
+                          viewBox="0 0 44 44"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            width="44"
+                            height="44"
+                            rx="22"
+                            fill="url(#paint0_linear_70_627)"
+                            fill-opacity="0.12"
+                          />
+                          <path
+                            d="M16 28L28 16"
+                            stroke="url(#paint1_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.25 16H28V25.75"
+                            stroke="url(#paint2_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_70_627"
+                              x1="22"
+                              y1="0"
+                              x2="22"
+                              y2="44"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_70_627"
+                              x1="22"
+                              y1="16"
+                              x2="22"
+                              y2="28"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint2_linear_70_627"
+                              x1="23.125"
+                              y1="16"
+                              x2="23.125"
+                              y2="25.75"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="course-card-div ">
-                    <img src={course4} alt="" />
+                  <div className="course-card-div group">
+                    <img
+                      src={course4}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -278,13 +424,83 @@ const Course = () => {
                         <p className="review-number">(102)</p>
                       </div>
                       <hr />
-                      <p className="py-[22px] price">$ 500</p>
+                      <div className="flex justify-between pt-[16px]">
+                        <p className=" price">$ 500</p>
+                        <svg
+                          width="44"
+                          height="44"
+                          viewBox="0 0 44 44"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            width="44"
+                            height="44"
+                            rx="22"
+                            fill="url(#paint0_linear_70_627)"
+                            fill-opacity="0.12"
+                          />
+                          <path
+                            d="M16 28L28 16"
+                            stroke="url(#paint1_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.25 16H28V25.75"
+                            stroke="url(#paint2_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_70_627"
+                              x1="22"
+                              y1="0"
+                              x2="22"
+                              y2="44"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_70_627"
+                              x1="22"
+                              y1="16"
+                              x2="22"
+                              y2="28"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint2_linear_70_627"
+                              x1="23.125"
+                              y1="16"
+                              x2="23.125"
+                              y2="25.75"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="course-card-div ">
-                    <img src={course3} alt="" />
+                  <div className="course-card-div group">
+                    <img
+                      src={course3}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -354,13 +570,83 @@ const Course = () => {
                         <p className="review-number">(102)</p>
                       </div>
                       <hr />
-                      <p className="py-[22px] price">$ 500</p>
+                      <div className="flex justify-between pt-[16px]">
+                        <p className=" price">$ 500</p>
+                        <svg
+                          width="44"
+                          height="44"
+                          viewBox="0 0 44 44"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            width="44"
+                            height="44"
+                            rx="22"
+                            fill="url(#paint0_linear_70_627)"
+                            fill-opacity="0.12"
+                          />
+                          <path
+                            d="M16 28L28 16"
+                            stroke="url(#paint1_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.25 16H28V25.75"
+                            stroke="url(#paint2_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_70_627"
+                              x1="22"
+                              y1="0"
+                              x2="22"
+                              y2="44"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_70_627"
+                              x1="22"
+                              y1="16"
+                              x2="22"
+                              y2="28"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint2_linear_70_627"
+                              x1="23.125"
+                              y1="16"
+                              x2="23.125"
+                              y2="25.75"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="course-card-div ">
-                    <img src={course1} alt="" />
+                  <div className="course-card-div overflow-hidden group">
+                    <img
+                      src={course1}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -429,13 +715,85 @@ const Course = () => {
                         <p className="review-number">(15)</p>
                       </div>
                       <hr />
-                      <p className="py-[22px] price">$ 500</p>
+                      <div className="flex justify-between pt-[16px]">
+                        <p className=" price">$ 500</p>
+                        <svg
+                          // className="group-hover:text-[#FFA337] "
+                          id="svg1"
+                          width="44"
+                          height="44"
+                          viewBox="0 0 44 44"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            width="44"
+                            height="44"
+                            rx="22"
+                            fill="url(#paint0_linear_70_627)"
+                            fill-opacity="0.12"
+                          />
+                          <path
+                            d="M16 28L28 16"
+                            stroke="url(#paint1_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.25 16H28V25.75"
+                            stroke="url(#paint2_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_70_627"
+                              x1="22"
+                              y1="0"
+                              x2="22"
+                              y2="44"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_70_627"
+                              x1="22"
+                              y1="16"
+                              x2="22"
+                              y2="28"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint2_linear_70_627"
+                              x1="23.125"
+                              y1="16"
+                              x2="23.125"
+                              y2="25.75"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="course-card-div ">
-                    <img src={course2} alt="" />
+                  <div className="course-card-div group">
+                    <img
+                      src={course2}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -504,13 +862,83 @@ const Course = () => {
                         <p className="review-number">(20)</p>
                       </div>
                       <hr />
-                      <p className="py-[22px] price">$ 500</p>
+                      <div className="flex justify-between pt-[16px]">
+                        <p className=" price">$ 500</p>
+                        <svg
+                          width="44"
+                          height="44"
+                          viewBox="0 0 44 44"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            width="44"
+                            height="44"
+                            rx="22"
+                            fill="url(#paint0_linear_70_627)"
+                            fill-opacity="0.12"
+                          />
+                          <path
+                            d="M16 28L28 16"
+                            stroke="url(#paint1_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.25 16H28V25.75"
+                            stroke="url(#paint2_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_70_627"
+                              x1="22"
+                              y1="0"
+                              x2="22"
+                              y2="44"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_70_627"
+                              x1="22"
+                              y1="16"
+                              x2="22"
+                              y2="28"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint2_linear_70_627"
+                              x1="23.125"
+                              y1="16"
+                              x2="23.125"
+                              y2="25.75"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="course-card-div ">
-                    <img src={course4} alt="" />
+                  <div className="course-card-div group">
+                    <img
+                      src={course4}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -580,13 +1008,83 @@ const Course = () => {
                         <p className="review-number">(102)</p>
                       </div>
                       <hr />
-                      <p className="py-[22px] price">$ 500</p>
+                      <div className="flex justify-between pt-[16px]">
+                        <p className=" price">$ 500</p>
+                        <svg
+                          width="44"
+                          height="44"
+                          viewBox="0 0 44 44"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            width="44"
+                            height="44"
+                            rx="22"
+                            fill="url(#paint0_linear_70_627)"
+                            fill-opacity="0.12"
+                          />
+                          <path
+                            d="M16 28L28 16"
+                            stroke="url(#paint1_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.25 16H28V25.75"
+                            stroke="url(#paint2_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_70_627"
+                              x1="22"
+                              y1="0"
+                              x2="22"
+                              y2="44"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_70_627"
+                              x1="22"
+                              y1="16"
+                              x2="22"
+                              y2="28"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint2_linear_70_627"
+                              x1="23.125"
+                              y1="16"
+                              x2="23.125"
+                              y2="25.75"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="course-card-div ">
-                    <img src={course3} alt="" />
+                  <div className="course-card-div group">
+                    <img
+                      src={course3}
+                      alt=""
+                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                    />
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -656,7 +1154,73 @@ const Course = () => {
                         <p className="review-number">(102)</p>
                       </div>
                       <hr />
-                      <p className="py-[22px] price">$ 500</p>
+                      <div className="flex justify-between pt-[16px]">
+                        <p className=" price">$ 500</p>
+                        <svg
+                          width="44"
+                          height="44"
+                          viewBox="0 0 44 44"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            width="44"
+                            height="44"
+                            rx="22"
+                            fill="url(#paint0_linear_70_627)"
+                            fill-opacity="0.12"
+                          />
+                          <path
+                            d="M16 28L28 16"
+                            stroke="url(#paint1_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.25 16H28V25.75"
+                            stroke="url(#paint2_linear_70_627)"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_70_627"
+                              x1="22"
+                              y1="0"
+                              x2="22"
+                              y2="44"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint1_linear_70_627"
+                              x1="22"
+                              y1="16"
+                              x2="22"
+                              y2="28"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                            <linearGradient
+                              id="paint2_linear_70_627"
+                              x1="23.125"
+                              y1="16"
+                              x2="23.125"
+                              y2="25.75"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#FFC27A" />
+                              <stop offset="1" stop-color="#FFA337" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>

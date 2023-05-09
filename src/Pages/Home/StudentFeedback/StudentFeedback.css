@@ -5,7 +5,11 @@
   background: #ffffff;
   border-radius: 30px;
 }
-.customer-name {
+/* .feedback-card-div:hover {
+  background-color: rgb(240, 150, 200);
+  /* color: white; */
+/* } */
+*/ .customer-name {
   width: 149px;
   height: 32px;
   font-style: normal;

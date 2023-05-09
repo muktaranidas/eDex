@@ -10,7 +10,45 @@ const Banner = () => {
         <div className="flex  flex-col justify-center  mt-[178px]  mb-[318px]">
           <p className="banner-h4">START TO SUCCESS</p>
           <h1 className="banner-heading my-[24px]">
-            Access To 5000+ Courses from 300 Instructors & Institutions
+            Access To{" "}
+            <div className="inline-block">
+              <p>5000+</p>
+              <svg
+                width="174"
+                height="13"
+                viewBox="0 0 174 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.45993 6.25926C30.6873 3.00197 103.952 -0.668661 171.192 10.7072"
+                  stroke="#FFC27A"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            Courses from{" "}
+            <div className="inline-block">
+              <p>300+</p>
+              <svg
+                width="112"
+                height="13"
+                viewBox="0 0 112 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.99687 6.06247C20.8995 2.99745 67.2665 -0.447418 109.514 10.2932"
+                  stroke="#FFC27A"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>{" "}
+            Instructors & Institutions
           </h1>
           <p className="banner-p mb-[32px]">
             Various versions have evolved over the years, sometimesbyaccident,
