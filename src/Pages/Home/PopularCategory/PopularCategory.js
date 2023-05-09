@@ -32,7 +32,7 @@ const PopularCategory = () => {
         </div>
 
         <div className="container grid grid-cols-1 gap-[24px] mx-auto lg:grid-cols-4">
-          <div className="flex justify-between bg-[#FFFFFF]  transition ease-in-out  delay-150 popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF]  transition ease-in-out  group delay-150 popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -72,8 +72,9 @@ const PopularCategory = () => {
               </svg>
               <p className="category-type">Design</p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -82,14 +83,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -97,7 +98,8 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF]  transition ease-in-out  delay-150  popular-card-div">
+
+          <div className="flex justify-between bg-[#FFFFFF]  transition ease-in-out group  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -173,8 +175,9 @@ const PopularCategory = () => {
 
               <p className="category-type">Department</p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1 ">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -183,14 +186,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -198,7 +201,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  group popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -239,8 +242,9 @@ const PopularCategory = () => {
 
               <p className="category-type">Marketing</p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -249,14 +253,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -264,7 +268,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out group delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -305,8 +309,9 @@ const PopularCategory = () => {
 
               <p className="category-type">Business</p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -315,14 +320,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -330,7 +335,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  group  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -392,8 +397,9 @@ const PopularCategory = () => {
 
               <p className="category-type">Lifestyle</p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -402,14 +408,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -417,7 +423,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  group  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -444,8 +450,9 @@ const PopularCategory = () => {
 
               <p className="category-type">Photography</p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -454,14 +461,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -469,7 +476,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  group  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -496,8 +503,9 @@ const PopularCategory = () => {
 
               <p className="category-type">Music</p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -506,14 +514,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -521,7 +529,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out group   delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -555,8 +563,9 @@ const PopularCategory = () => {
 
               <p className="category-type">Data Science</p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1 ">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -565,14 +574,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -580,7 +589,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  group  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -614,8 +623,9 @@ const PopularCategory = () => {
 
               <p className="category-type-special ">PersonalDevelop</p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -624,14 +634,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -639,7 +649,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  group  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -666,8 +676,9 @@ const PopularCategory = () => {
 
               <p className="category-type">Health & Fitness </p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -676,14 +687,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -691,7 +702,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  group  delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -767,8 +778,9 @@ const PopularCategory = () => {
 
               <p className="category-type">Finance</p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -777,14 +789,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -792,7 +804,7 @@ const PopularCategory = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out  delay-150  popular-card-div">
+          <div className="flex justify-between bg-[#FFFFFF] transition ease-in-out   group delay-150  popular-card-div">
             <div className="flex items-center gap-[16px] justify-center">
               <svg
                 width="38"
@@ -840,8 +852,9 @@ const PopularCategory = () => {
 
               <p className="category-type">Teaching</p>
             </div>
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between svg1">
               <svg
+                className="group-hover:bg-[#ffb662]  group-hover:text-[white] transition ease-in-out  delay-150"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -850,14 +863,14 @@ const PopularCategory = () => {
               >
                 <path
                   d="M16 28L28 16"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M18.25 16H28V25.75"
-                  stroke="#FFC27A"
+                  stroke="currentColor"
                   stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"

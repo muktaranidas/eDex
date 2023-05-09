@@ -34,13 +34,17 @@
   color: #1b1d1f;
 }
 .svg1 {
-  padding: 16px;
-  width: 44px;
-  height: 44px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 194, 122, 0.12) 0%,
-    rgba(255, 163, 55, 0.12) 100%
-  );
-  border-radius: 1000px;
+  border-radius: 100%;
+  color: #ffb662;
 }
+.svg1 svg {
+  border-radius: 100%;
+  stroke: white;
+}
+.svg1 svg rect {
+  fill: #ffb053;
+}
+/* .svg1:hover svg {
+  color: white;
+  background-color: #ffb662;
+} */

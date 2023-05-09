@@ -57,7 +57,7 @@ const Course = () => {
             >
               <div className=" ">
                 <SwiperSlide>
-                  <div className="course-card-div overflow-hidden group">
+                  <div className="course-card-div  overflow-hidden group ">
                     <img
                       src={course1}
                       alt=""
@@ -131,11 +131,10 @@ const Course = () => {
                         <p className="review-number">(15)</p>
                       </div>
                       <hr />
-                      <div className="flex justify-between pt-[16px]">
+                      <div className="flex justify-between pt-[16px] svg1 ">
                         <p className=" price">$ 500</p>
                         <svg
-                          // className="group-hover:text-[#FFA337] "
-                          id="svg1"
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -151,14 +150,16 @@ const Course = () => {
                           />
                           <path
                             d="M16 28L28 16"
-                            stroke="url(#paint1_linear_70_627)"
+                            // stroke="url(#paint1_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
                           />
                           <path
                             d="M18.25 16H28V25.75"
-                            stroke="url(#paint2_linear_70_627)"
+                            // stroke="url(#paint2_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -278,9 +279,10 @@ const Course = () => {
                         <p className="review-number">(20)</p>
                       </div>
                       <hr />
-                      <div className="flex justify-between pt-[16px]">
+                      <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -296,14 +298,14 @@ const Course = () => {
                           />
                           <path
                             d="M16 28L28 16"
-                            stroke="url(#paint1_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
                           />
                           <path
                             d="M18.25 16H28V25.75"
-                            stroke="url(#paint2_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -424,9 +426,10 @@ const Course = () => {
                         <p className="review-number">(102)</p>
                       </div>
                       <hr />
-                      <div className="flex justify-between pt-[16px]">
+                      <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -442,14 +445,14 @@ const Course = () => {
                           />
                           <path
                             d="M16 28L28 16"
-                            stroke="url(#paint1_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
                           />
                           <path
                             d="M18.25 16H28V25.75"
-                            stroke="url(#paint2_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -570,9 +573,10 @@ const Course = () => {
                         <p className="review-number">(102)</p>
                       </div>
                       <hr />
-                      <div className="flex justify-between pt-[16px]">
+                      <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -588,14 +592,14 @@ const Course = () => {
                           />
                           <path
                             d="M16 28L28 16"
-                            stroke="url(#paint1_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
                           />
                           <path
                             d="M18.25 16H28V25.75"
-                            stroke="url(#paint2_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -641,7 +645,7 @@ const Course = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="course-card-div overflow-hidden group">
+                  <div className="course-card-div  overflow-hidden group ">
                     <img
                       src={course1}
                       alt=""
@@ -715,11 +719,10 @@ const Course = () => {
                         <p className="review-number">(15)</p>
                       </div>
                       <hr />
-                      <div className="flex justify-between pt-[16px]">
+                      <div className="flex justify-between pt-[16px] svg1 ">
                         <p className=" price">$ 500</p>
                         <svg
-                          // className="group-hover:text-[#FFA337] "
-                          id="svg1"
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -735,14 +738,16 @@ const Course = () => {
                           />
                           <path
                             d="M16 28L28 16"
-                            stroke="url(#paint1_linear_70_627)"
+                            // stroke="url(#paint1_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
                           />
                           <path
                             d="M18.25 16H28V25.75"
-                            stroke="url(#paint2_linear_70_627)"
+                            // stroke="url(#paint2_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -862,9 +867,10 @@ const Course = () => {
                         <p className="review-number">(20)</p>
                       </div>
                       <hr />
-                      <div className="flex justify-between pt-[16px]">
+                      <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -880,14 +886,14 @@ const Course = () => {
                           />
                           <path
                             d="M16 28L28 16"
-                            stroke="url(#paint1_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
                           />
                           <path
                             d="M18.25 16H28V25.75"
-                            stroke="url(#paint2_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -1008,9 +1014,10 @@ const Course = () => {
                         <p className="review-number">(102)</p>
                       </div>
                       <hr />
-                      <div className="flex justify-between pt-[16px]">
+                      <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -1026,14 +1033,14 @@ const Course = () => {
                           />
                           <path
                             d="M16 28L28 16"
-                            stroke="url(#paint1_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
                           />
                           <path
                             d="M18.25 16H28V25.75"
-                            stroke="url(#paint2_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -1154,9 +1161,10 @@ const Course = () => {
                         <p className="review-number">(102)</p>
                       </div>
                       <hr />
-                      <div className="flex justify-between pt-[16px]">
+                      <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -1172,14 +1180,14 @@ const Course = () => {
                           />
                           <path
                             d="M16 28L28 16"
-                            stroke="url(#paint1_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"
                           />
                           <path
                             d="M18.25 16H28V25.75"
-                            stroke="url(#paint2_linear_70_627)"
+                            stroke="currentColor"
                             stroke-width="1.5"
                             stroke-linecap="round"
                             stroke-linejoin="round"

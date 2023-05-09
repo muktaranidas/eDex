@@ -32,3 +32,11 @@
   line-height: 28px;
   color: #000000;
 }
+.svg1 {
+  border-radius: 100%;
+  color: #ffb662;
+}
+.svg1 svg {
+  border-radius: 100%;
+  stroke: #ffb053;
+}
