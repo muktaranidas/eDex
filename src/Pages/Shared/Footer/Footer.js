@@ -15,30 +15,35 @@ const Footer = () => {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="footer-heading mb-[14px]"
+              className="footer-heading mb-[14px] "
             >
               Contact Us
             </a>
-            <a rel="noopener noreferrer" href="#" className="footer-p mb-[7px]">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p mb-[7px] hover:text-orange hover:underline"
+            >
               Call : +123 400 123
             </a>
-            <a
+            <p
               rel="noopener noreferrer"
               href="#"
               className="w-[312px] h-[49px] footer-p mb-[15px]"
             >
               Praesent nulla massa, hendrerit vestibulum gravida in, feugiat
               auctor felis.
-            </a>
+            </p>
             <a
               rel="noopener noreferrer"
               href="#"
-              className="footer-p mb-[15px] "
+              className="footer-p mb-[15px] hover:text-orange hover:underline"
             >
               Email: example@mail.com
             </a>
             <a href="" className="flex flex-row gap-[16px] mb-[88px]">
               <svg
+                className=""
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -52,6 +57,7 @@ const Footer = () => {
                 />
               </svg>
               <svg
+                className=""
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -77,6 +83,7 @@ const Footer = () => {
                 </defs>
               </svg>
               <svg
+                className=""
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -102,6 +109,7 @@ const Footer = () => {
                 </defs>
               </svg>
               <svg
+                className=""
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -127,6 +135,7 @@ const Footer = () => {
                 </defs>
               </svg>
               <svg
+                className=""
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -145,19 +154,39 @@ const Footer = () => {
         <div className="flex flex-col ">
           <h2 className="footer-heading mt-[106px] mb-[31px]">Explore</h2>
           <div className="flex flex-col gap-[15px]">
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               Home
             </a>
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               About
             </a>
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               Course
             </a>
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               Blog
             </a>
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               Contact
             </a>
           </div>
@@ -165,25 +194,53 @@ const Footer = () => {
         <div className="flex flex-col ">
           <h2 className="footer-heading mt-[106px] mb-[31px]">Category</h2>
           <div className="flex flex-col gap-[15px]">
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               Design
             </a>
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               Development
             </a>
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               Marketing
             </a>
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               Business
             </a>
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               Lifestyle
             </a>
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               Photography
             </a>
-            <a rel="noopener noreferrer" href="#" className="footer-p">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="footer-p hover:text-orange"
+            >
               Music
             </a>
           </div>
@@ -191,14 +248,14 @@ const Footer = () => {
         <div className="flex flex-col ">
           <h2 className="subscribe mt-[114px] mb-[31px]">Subscribe</h2>
           <div className="flex flex-col ">
-            <a
+            <p
               rel="noopener noreferrer"
               href="#"
               className="footer-p w-[297px] h-[49px] mb-[21px]"
             >
               Lorem Ipsum has been them an industry printer took a galley make
               book.
-            </a>
+            </p>
             <input
               type="email"
               placeholder="Email here"
