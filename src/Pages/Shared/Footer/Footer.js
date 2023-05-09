@@ -43,7 +43,7 @@ const Footer = () => {
             </a>
             <a href="" className="flex flex-row gap-[16px] mb-[88px]">
               <svg
-                className=""
+                className="hover:bg-[orange]"
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -57,7 +57,7 @@ const Footer = () => {
                 />
               </svg>
               <svg
-                className=""
+                className="hover:bg-[orange]"
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -83,7 +83,7 @@ const Footer = () => {
                 </defs>
               </svg>
               <svg
-                className=""
+                className="hover:bg-[orange]"
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -109,7 +109,7 @@ const Footer = () => {
                 </defs>
               </svg>
               <svg
-                className=""
+                className="hover:bg-[orange]"
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -135,7 +135,7 @@ const Footer = () => {
                 </defs>
               </svg>
               <svg
-                className=""
+                className="hover:bg-[orange]"
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"

@@ -134,7 +134,7 @@ const Course = () => {
                       <div className="flex justify-between pt-[16px] svg1 ">
                         <p className=" price">$ 500</p>
                         <svg
-                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white] transition ease-in-out  delay-150  duration-300 "
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -282,7 +282,7 @@ const Course = () => {
                       <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
-                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white] transition ease-in-out  delay-150  "
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -429,7 +429,7 @@ const Course = () => {
                       <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
-                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white] transition ease-in-out  delay-150  "
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -576,7 +576,7 @@ const Course = () => {
                       <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
-                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white] transition ease-in-out  delay-150  "
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -722,7 +722,7 @@ const Course = () => {
                       <div className="flex justify-between pt-[16px] svg1 ">
                         <p className=" price">$ 500</p>
                         <svg
-                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white] transition ease-in-out  delay-150  duration-300 "
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -870,7 +870,7 @@ const Course = () => {
                       <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
-                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white] transition ease-in-out  delay-150  "
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -1017,7 +1017,7 @@ const Course = () => {
                       <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
-                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white] transition ease-in-out  delay-150  "
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
@@ -1164,7 +1164,7 @@ const Course = () => {
                       <div className="flex justify-between pt-[16px] svg1">
                         <p className=" price">$ 500</p>
                         <svg
-                          className="group-hover:bg-[#ffb662] group-hover:text-[white]"
+                          className="group-hover:bg-[#ffb662] group-hover:text-[white] transition ease-in-out  delay-150  "
                           width="44"
                           height="44"
                           viewBox="0 0 44 44"
