@@ -58,11 +58,13 @@ const Instructor = () => {
               <div className="my-pagination ">
                 <SwiperSlide>
                   <div className="card-div group">
-                    <img
-                      src={instructor1}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={instructor1}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -73,11 +75,14 @@ const Instructor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="card-div group">
-                    <img
-                      src={instructor2}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    {" "}
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={instructor2}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -88,11 +93,13 @@ const Instructor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="card-div group">
-                    <img
-                      src={instructor3}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={instructor3}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -103,11 +110,13 @@ const Instructor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="card-div group">
-                    <img
-                      src={instructor4}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={instructor4}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -118,11 +127,13 @@ const Instructor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="card-div group">
-                    <img
-                      src={instructor1}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={instructor1}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -133,11 +144,14 @@ const Instructor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="card-div group">
-                    <img
-                      src={instructor2}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    {" "}
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={instructor2}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -148,11 +162,13 @@ const Instructor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="card-div group">
-                    <img
-                      src={instructor3}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={instructor3}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">
@@ -163,11 +179,13 @@ const Instructor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="card-div group">
-                    <img
-                      src={instructor4}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={instructor4}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className="text-center mt-[16px] ">
                       <h2 className="instructor-name ">Jacob Jones</h2>
                       <span className="instructor-position">

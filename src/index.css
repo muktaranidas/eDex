@@ -11,9 +11,6 @@
 .widthClass {
   @apply mx-2 md:mx-4 lg:mx-6 xl:mx-auto max-w-[1320px];
 }
-/* .swiperWidthClass {
-  @apply mx-2 md:mx-4 lg:mx-6 xl:mx-auto max-w-[1440px];
-} */
 
 .commonBtn {
   width: 167px;

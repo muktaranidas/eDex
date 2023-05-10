@@ -5,11 +5,8 @@
   background: #ffffff;
   border-radius: 30px;
 }
-/* .feedback-card-div:hover {
-  background-color: rgb(240, 150, 200);
-  /* color: white; */
-/* } */
-*/ .customer-name {
+
+.customer-name {
   width: 149px;
   height: 32px;
   font-style: normal;
@@ -19,6 +16,9 @@
   letter-spacing: 0.002em;
   color: #000000;
 }
+/* .customer-name:hover {
+  color: white;
+} */
 .customer-position {
   width: 115px;
   height: 24px;
@@ -28,6 +28,9 @@
   line-height: 24px;
   color: #000000;
 }
+/* .customer-position {
+  color: white;
+} */
 .customer-feedback {
   width: 354px;
   height: 120px;
@@ -37,3 +40,6 @@
   line-height: 24px;
   color: #363a3d;
 }
+/* .customer-feedback:hover {
+  color: white;
+} */

@@ -58,11 +58,14 @@ const Course = () => {
               <div className=" ">
                 <SwiperSlide>
                   <div className="course-card-div  overflow-hidden group ">
-                    <img
-                      src={course1}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={course1}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
+
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -206,11 +209,13 @@ const Course = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="course-card-div group">
-                    <img
-                      src={course2}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={course2}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -352,11 +357,13 @@ const Course = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="course-card-div group">
-                    <img
-                      src={course4}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={course4}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -499,11 +506,13 @@ const Course = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="course-card-div group">
-                    <img
-                      src={course3}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={course3}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -646,11 +655,14 @@ const Course = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="course-card-div  overflow-hidden group ">
-                    <img
-                      src={course1}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={course1}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
+
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -794,11 +806,13 @@ const Course = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="course-card-div group">
-                    <img
-                      src={course2}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={course2}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -940,11 +954,13 @@ const Course = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="course-card-div group">
-                    <img
-                      src={course4}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={course4}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
@@ -1087,11 +1103,13 @@ const Course = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="course-card-div group">
-                    <img
-                      src={course3}
-                      alt=""
-                      className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
-                    />
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        src={course3}
+                        alt=""
+                        className="transition ease-in-out  delay-150 group-hover:-translate-y-1  group-hover:scale-110 duration-300 "
+                      />
+                    </div>
                     <div className=" mt-[16px] ">
                       <h2 className="course-name ">
                         Various versions have evolve...
