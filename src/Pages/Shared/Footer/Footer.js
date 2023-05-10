@@ -31,7 +31,7 @@ const Footer = () => {
               href="#"
               className="w-[312px] h-[49px] footer-p mb-[15px]"
             >
-              Praesent nulla massa, hendrerit vestibulum gravida in, feugiat
+              Praesent nulla massa, hendrerit vestibulum gravda in, feugiat
               auctor felis.
             </p>
             <a
