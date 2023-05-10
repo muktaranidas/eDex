@@ -43,7 +43,6 @@ const Footer = () => {
             </a>
             <a href="" className="flex flex-row gap-[16px] mb-[88px]">
               <svg
-                className="hover:bg-[orange]"
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -57,7 +56,6 @@ const Footer = () => {
                 />
               </svg>
               <svg
-                className="hover:bg-[orange]"
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -83,7 +81,6 @@ const Footer = () => {
                 </defs>
               </svg>
               <svg
-                className="hover:bg-[orange]"
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -109,7 +106,6 @@ const Footer = () => {
                 </defs>
               </svg>
               <svg
-                className="hover:bg-[orange]"
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -135,7 +131,6 @@ const Footer = () => {
                 </defs>
               </svg>
               <svg
-                className="hover:bg-[orange]"
                 width="48"
                 height="49"
                 viewBox="0 0 48 49"
@@ -259,7 +254,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Email here"
-              className="input  mb-[34px]"
+              className="input  mb-[34px] focus:ring-2 focus:ring-yellow-600"
             />
             <Button btnText={"Subscribe Now"}></Button>
           </div>
